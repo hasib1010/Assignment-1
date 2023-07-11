@@ -129,7 +129,8 @@ header {
 /* info section styles */
 .info {
     height: 320px;
-    margin: 128px 240px 128px 240px;
+    width: 1440px;
+    margin: 128px auto;
     background: #2727270D;
     display: flex;
     justify-content: space-evenly;
@@ -164,6 +165,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 620px;
 
 }
 
@@ -182,11 +184,95 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    height: 70px;
 }
 
 .sign-up {
     margin-left: 220px;
 }
-span{
+
+span {
     color: #E55473;
+}
+
+.deals-text {
+    padding-top: 190px;
+    padding-bottom: 160PX;
+}
+
+.deals-detils {
+    margin-bottom: 30PX;
+
+}
+
+/* insta style */
+.insta-details {
+    margin: 0 auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pic {
+    width: 342px;
+    height: 396px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+/* gallery end */
+.newslater {
+    width: 1440px;
+    height: 449px;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.elements {
+    padding-top: 120px;
+}
+
+.news-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 45px;
+}
+
+form>input {
+    width: 700px;
+    height: 64px;
+    padding-left: 22px;
+    border: none;margin-right: 20px;
 }
