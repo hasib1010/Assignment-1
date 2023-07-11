@@ -120,9 +120,73 @@ header {
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 /* info section styles */
+.info {
+    height: 320px;
+    margin: 128px 240px 128px 240px;
+    background: #2727270D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons>p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: left;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
+.icon {
+    padding-left: 142px;
+}
+
+.icon2 {
+    padding-left: 100px;
+}
+
+.icon3 {
+    padding-left: 45px;
+}
+
+/* deals related styles */
+.hot-deals {
+    background: #E554730D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-detils {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up {
+    margin-left: 220px;
+}
+span{
+    color: #E55473;
+}
