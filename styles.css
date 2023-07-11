@@ -1,0 +1,62 @@
+/* shared stytle */
+.btn-primary {
+    height: 64px;
+    width: 177px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* header related style */
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.header-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header {
+    height: 850px;
+    background: #E554731A;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 90px;
+}
+
+
+.header-title {
+    margin: 0;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-details {
+    padding: 32px 0px 32px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
