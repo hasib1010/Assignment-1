@@ -1,10 +1,13 @@
 /* shared stytle */
+* {
+    margin: 0;
+}
+
 .btn-primary {
     height: 64px;
     width: 177px;
     border-radius: 8px;
     background: #E55473;
-    color: #FFFFFF;
     border: none;
     cursor: pointer;
     color: #FFF;
@@ -274,5 +277,47 @@ form>input {
     width: 700px;
     height: 64px;
     padding-left: 22px;
-    border: none;margin-right: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+/* footer related styles */
+footer {
+    background: #000;
+    height: 449px;
+}
+
+.footer-text {
+    margin: auto;
+}
+
+#white {
+    color: white
+}
+
+.footer-text>h1 {
+    padding-top: 130px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.footer-detils {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: 400; 
+    margin-top: 30px;
 }
